@@ -2,6 +2,8 @@
 
 <footer>
     <div class="container">
-        Rodapé    
+        2023 © - PataCursos - Todos os direitos reservados
     </div>
 </footer>
+</body>
+</html>
