@@ -1,3 +1,4 @@
+<a href="?pagina=inserir_aluno">Inserir Aluno</a>
 <table style="border:1px solid #ccc; width: 100%">
     <tr>
         <th>Nome Aluno</th>
