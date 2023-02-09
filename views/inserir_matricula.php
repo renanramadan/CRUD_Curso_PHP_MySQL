@@ -1,8 +1,8 @@
 <h1>Inserir nova matricula</h1><br>
 <br>
 <form method="post" action="processa_matricula.php">
-    <p>Selecione o Aluno:</p>
-    <select name="escolha_aluno">
+    <label class="badge text-bg-secondary">Selecione o Aluno:</label>
+    <select name="escolha_aluno" class="form-control">
         <option>Selecione um Aluno</option>
         <?php
             while($linha = mysqli_fetch_array($consulta_alunos)){
@@ -11,8 +11,8 @@
         ?>
     </select>
     <br><br>
-    <p>Selecione o Curso:</p>
-    <select name="escolha_curso">
+    <label class="badge text-bg-secondary">Selecione o Curso:</label>
+    <select name="escolha_curso" class="form-control">
         <option>Selecione um curso</option>
         <?php
             while($linha = mysqli_fetch_array($consulta_cursos)){
@@ -21,6 +21,6 @@
         ?>    
     </select>
     <br><br>
-    <input type="submit" value="Matricular aluno no curso">
+    <input type="submit" value="Matricular aluno no curso" class="btn btn-success">
 </form>
 

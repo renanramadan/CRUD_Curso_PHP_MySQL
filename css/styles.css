@@ -23,25 +23,25 @@ footer{height: 50px;
 }
 
 /* Class */
-.container{
+/*.container{
     margin: 0 auto; 
     width: 960px; 
 }
 
 /* id */
 #conteudo{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 #menu{
     float: right;
-    padding: 35px 0px;
+    padding: 23px 0px;
 }
 
 #menu a{
     text-decoration: none; 
     font-size: 16px;
-    padding: 47px 50px; 
+    padding: 36.5px 35px; 
     color: #e3e3e3;
     text-shadow: 2px 2px 2px #262626;
 }
