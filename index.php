@@ -1,4 +1,7 @@
 <?php
+# Iniciar sessão
+session_start();
+
 
 # Base de dados
 include 'db.php';
@@ -7,12 +10,22 @@ include 'db.php';
 include 'header.php';
 
 # Conteudo da pagina
-if (isset($_GET['pagina'])){
-    $pagina = $_GET['pagina'];
+
+
+if (isset($_SESSION['login'])){
+    if (isset($_GET['pagina'])){
+        $pagina = $_GET['pagina'];
+    } 
+    else {
+        $pagina = 'cursos';
+    }
 }
-else{
+else {
     $pagina = 'home';
 }
+
+
+
 
 switch($pagina){
     case 'cursos': include 'views/cursos.php'; break;
