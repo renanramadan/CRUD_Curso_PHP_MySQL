@@ -2,7 +2,7 @@
 
 <footer>
     <div class="container">
-        2023 © - PataCursos - Todos os direitos reservados
+        2023 - 2024 © - PataCursos - Todos os direitos reservados
     </div>
 
     <script src="js/jquery.js"></script>
